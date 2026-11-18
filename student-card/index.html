@@ -1,0 +1,31 @@
+import React from "react";
+import "./styles/Dashboard.css";
+
+function App() {
+  return (
+    <div className="dashboard">
+      <header className="header">
+        <h1>Student Dashboard</h1>
+        <p>Student Card Management System</p>
+      </header>
+
+      <section className="welcome">
+        <h2>Welcome to Student Portal</h2>
+        <p>Manage student information easily.</p>
+      </section>
+
+      <section className="student-container">
+        <div className="student-card">
+          <div className="profile">👩‍🎓</div>
+          <h2>Student Name</h2>
+          <p>Register No: 2026CS001</p>
+          <p>Department: Computer Science</p>
+          <p>Year: II Year</p>
+          <button>View Profile</button>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default App;
